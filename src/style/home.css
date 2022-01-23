@@ -1,0 +1,148 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+:root{
+    --green-color: #0bceaf;
+}
+
+.home_container{
+    width:100%;
+    min-height:100vh;
+    background-color: #131515;
+    animation: fadeIn 6s ;
+}
+
+.outer{
+    width:90%;
+    margin:auto;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    padding-top:30vh;
+
+}
+.inner1{
+    width:800px;
+    margin-top: 30px;
+}
+.inner1 h1{
+    color:white;
+    font-size: 3.5rem;
+}
+.inner1 p{
+    color:white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+.wave {
+    animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.5s;        /* Change to speed up or slow down */
+    animation-iteration-count: infinite;  /* Never stop waving :) */
+    transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+    display: inline-block;
+  }
+  @keyframes wave-animation {
+    0% { transform: rotate( 0.0deg) }
+   10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+   20% { transform: rotate(-8.0deg) }
+   30% { transform: rotate(14.0deg) }
+   40% { transform: rotate(-4.0deg) }
+   50% { transform: rotate(10.0deg) }
+   60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+  100% { transform: rotate( 0.0deg) }
+}
+
+.Typewriter{
+    color:#71f3dd;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.Typewriter__cursor{
+    color:orange;
+}
+.icons a{
+    font-size: 30px;
+    color:#0bceaf;
+    margin: 20px;
+  }
+  .inner2{
+    width:40%;
+}
+.img-outer{
+    background-color: transparent;
+    border: 4px solid var(--green-color);
+    padding:10px;
+    border-radius: 50% !important;
+    width:300px;
+    height:300px;
+    margin: auto;
+}
+.img-outer img{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+    border-radius: 50%;
+} 
+
+.navbar{
+  z-index:1;
+  background-color:#131515;
+  font-size:2rem;
+  position:fixed;
+  width:100%;
+}
+.nav-link{
+    color:white;
+    transition: .5s;
+  }
+  .nav-link:hover{
+    color:#0bceaf;
+    border-bottom: 3px solid #0bceaf;
+  }
+
+@media only screen and (max-width: 890px){
+    .outer{
+        flex-direction: column;
+        width:100%;
+    }
+    .inner1{
+        margin: auto;
+        text-align: center;
+        margin-bottom: 40px;
+        width:100%;
+    }
+    .inner2{
+        margin: auto;
+        width:100%;
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .inner1 h1{
+        color:white;
+        font-size: 2.5rem;
+    }
+    .inner1 p{
+        color:white;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .Typewriter{
+        color:#71f3dd;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    .img-outer{
+        padding:10px;
+        border-radius: 50% !important;
+        width:250px;
+        height:250px;
+        margin: auto;
+    }
+
+}

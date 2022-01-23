@@ -1,24 +1,21 @@
-import logo from './logo.svg';
+import React,{useEffect} from "react";
 import './App.css';
-
+import Particle_div from "./Particle_div";
+//import Particles from "react-tsparticles";
+import Aos from "aos";
+import Home from "./components/Home";
+import About from "./components/about";
+import Skills from "./components/skills";
+import "aos/dist/aos.css";
 function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Particle_div/>
+      <Home />
+      <About/>
+      <Skills/>
+    </>
   );
 }
 
