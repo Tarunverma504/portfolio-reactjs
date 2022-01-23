@@ -1,7 +1,6 @@
-import React,{useEffect} from "react";
+import React from "react";
 import Particle from "react-tsparticles";
 import './App.css';
-import Aos from "aos";
 
 function Particle_div(){
     return(
@@ -10,8 +9,6 @@ function Particle_div(){
             className="particles-wrapper"
                  canvasClassName="c"
       id="tsparticles"
-    //   init={particlesInit}
-    //   loaded={particlesLoaded}
       options={{
         background: {
         },

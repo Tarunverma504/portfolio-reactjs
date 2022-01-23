@@ -1,7 +1,6 @@
 import React,{useEffect} from "react";
 import "../style/skills.css";
 import Aos from "aos";
-import skill from "../assets/skill.svg";
 import Progress_bar from "./progress_bar";
 function Skills(){
     useEffect(()=>{

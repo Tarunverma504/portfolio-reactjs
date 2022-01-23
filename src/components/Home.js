@@ -1,6 +1,5 @@
 import React,{useEffect} from "react";
 import Typewriter from 'typewriter-effect';
-// import skill from "../assets/skill.svg";
 import profile_photo from "../assets/profile_photo.jpeg";
 import "../style/home.css";
 import Aos from "aos";
