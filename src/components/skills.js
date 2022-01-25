@@ -4,7 +4,7 @@ import Aos from "aos";
 import Progress_bar from "./progress_bar";
 function Skills(){
     useEffect(()=>{
-        Aos.init({duration:3000});
+        Aos.init({duration:2000});
       })
     return(
         <>
