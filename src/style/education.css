@@ -22,7 +22,7 @@
 .mid_div{
     width:4px;
     background-color: #0bceaf;
-    height:45vh;
+    height:350px;
     margin:auto;
     position:absolute;
     margin-top: 30px;
@@ -128,9 +128,6 @@
     padding:5px;
 }
 @media only screen and (max-width: 1250px){
-    .mid_div{
-        height:50vh;
-    }
     .edu_outer{
         height:80vh;
         position:relative;
@@ -155,7 +152,7 @@
         word-wrap: break-word;
     }
     .mid_div{
-        height:78vh;
+        height:480px;
     }
     .circle_2{
         margin-top:250px;
