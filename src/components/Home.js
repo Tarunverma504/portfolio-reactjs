@@ -49,10 +49,10 @@ function Home(){
                         <p><span><i className="fas fa-envelope" style={{color:"#71f3dd",marginTop:"20px"}}></i> &nbsp; vermatarun4305@gmail.com</span></p>
                         <p><span><i className="fas fa-map-marker-alt" style={{color: "#71f3dd"}}></i>&nbsp;&nbsp; Chandigarh, India</span></p>
                         <div className="icons">
-                            <a href="#"><i className="fab fa-github"></i></a>
-                            <a href="#"><i className="fab fa-linkedin"></i></a>
-                            <a href="#"><i className="fab fa-facebook-square"></i></a>
-                            <a href="#"><i className="fab fa-instagram"></i></a>
+                            <a href="https://github.com/Tarunverma504"><i className="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/feed/"><i className="fab fa-linkedin"></i></a>
+                            <a href="https://www.facebook.com/"><i className="fab fa-facebook-square"></i></a>
+                            <a href="https://www.instagram.com/tarun._verma/"><i className="fab fa-instagram"></i></a>
 
                         </div>
                     </div>

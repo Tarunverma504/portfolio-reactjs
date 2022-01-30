@@ -1,0 +1,126 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.contact-container{
+    width:100%;
+    background-color: #1b1b1b;
+    height:auto;
+    position:relative;
+    padding:30px 0px;
+}
+.contact_outer{
+    background-color: #1b1b1b;
+    width:100%;
+    display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin:auto;
+  padding-left:5%;
+  padding-right: 5%;
+  padding-top:80px;
+  padding-bottom:80px;
+
+}
+.contact_inner1{
+    width:50%;
+}
+.contact_inner1 input{
+    height: 45px;
+    display: block;
+    border-radius: 30px;
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    padding: 0 15px;
+    border-radius: 25px;
+    outline:none;
+    box-shadow:3px 3px 3px #222327ab, -3px -3px 3px #363636c0;
+    margin:20px 0px;
+    width:98%;
+    color:grey;
+    border-bottom: 1px solid #36363642;
+}
+.contact_inner2{
+    width:50%;
+    
+}
+.contact_inner2 textarea{
+    height: 50px;
+    display: block;
+    border-radius: 30px;
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    padding: 0 15px;
+    border-radius: 25px;
+    outline:none;
+    box-shadow:3px 3px 3px #222327ab, -3px -3px 3px #363636c0;
+    margin:20px 0px;
+    width:98%;
+    color:grey;
+    height: 184px;
+}
+.contact-btn button{
+    float: right;
+    color:#0bceaf;
+    padding:10px 30px;
+    box-shadow:3px 3px 3px #222327ab, -3px -3px 3px #363636c0;
+    background-color: transparent;
+    outline:none;
+    border-radius: 15px;
+    border: none ;
+    border:3px solid rgba(0, 0, 0, 0.082);
+    transition: 1s;
+
+}
+.contact-btn button:hover{
+    background-color: #0bceaec7;
+    color:white;
+}
+.getintouch_div{
+    width:100%;
+    text-align: center;
+}
+.getintouch_div h2{
+    color:white;
+    text-decoration: underline;
+    text-decoration-color: #0bceaf;
+}
+.contact_icons{
+    width:500px;
+    margin: 30px auto;
+}
+.contact_icons a{
+    font-size: 40px;
+    color:#0bceaf;
+    margin:20px;
+}
+
+@media only screen and (max-width: 800px){
+    .contact_outer{
+        flex-direction:column;
+    }
+    .contact_inner1{
+        width:100%;
+    }
+    .contact_inner2{
+        width: 100%;
+    }
+    .contact-btn{
+        width: 170px;
+        margin: auto;
+    }
+    .contact-btn button{
+        float:unset;
+    }
+    .contact_icons{
+        width:200px;
+    }
+    .contact_icons a{
+        font-size: 30px;
+        color:#0bceaf;
+        margin:10px;
+    }
+}

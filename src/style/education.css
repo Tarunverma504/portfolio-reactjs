@@ -6,7 +6,8 @@
 .edu_container{
     width:100%;
     position: relative;
-    background-color: rgb(17, 17, 17);
+    /* background-color: rgb(17, 17, 17); */
+    background-color: #1b1b1b;
     padding-top: 20px;
     padding-bottom: 20px;
 }
