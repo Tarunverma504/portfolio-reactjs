@@ -1,18 +1,23 @@
-import React from "react";
+import React,{useEffect}  from "react";
 import "../style/contact.css";
-import contact from "../assets/contact.svg";
+import Aos from "aos";
+
 function Contact(){
+    useEffect(()=>{
+        Aos.init({duration:1000});
+      })
     return (
+        
         <>
             <div className="contact-container">
                 <h1 style={{textDecoration:"underline",textDecorationColor:"white",textAlign:"center",color:"#0bceaf",fontSize:"50px"}}>Contact</h1>
                 <div className="contact_outer">
-                    <div className="contact_inner1">
+                    <div data-aos="fade-right" className="contact_inner1">
                         <input type="text" placeholder="Name" />
                         <input type="email" placeholder="Email" />
                         <input type="text" placeholder="Subject" />
                     </div>
-                    <div className="contact_inner2">
+                    <div data-aos="fade-left" className="contact_inner2">
                         <textarea type="text" placeholder="Message"/>
                         <div className="contact-btn">
                             <button>Send Message</button>
